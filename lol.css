@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2021/04/spongebob-squidward-strike-Cropped.jpg?q=50&fit=crop&w=825&dpr=1.5) no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.wrapper {
+font-family: 'Courier New', Courier, monospace;
+background: transparent;
+border: 2px solid #ffffff;
+border-radius: 20px;
+backdrop-filter: blur(10px);
+padding: 40px 10px;
+}
+
+.wrapper h1{
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(4, 144, 165);
+}
+
+.wrapper .input-box{
+    width: 300px;
+    height: 50px;
+    margin: 25px 0;
+}
+
+.input-box input{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-family:cursive;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgb(4, 138, 171) ;
+    border-radius: 20px;
+    color: rgb(4, 138, 171) ;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color:rgb(3, 135, 135);
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0px 15px;
+}
+
+.remember-forgot label input{
+    color: rgb(3, 135, 135);
+    margin: 3px;
+}
+
+.remember-forgot a{
+    color: rgb(3, 135, 135);
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background: rgb(3, 135, 135);
+    text-decoration: none;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600px ;
+}
+
+.wrapper .register-link{
+    font: size 14px; ;
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p a{
+    color: rgb(3, 135, 135);
+    text-decoration: none;
+    font-weight: 600px;
+
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
